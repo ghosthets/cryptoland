@@ -15,7 +15,7 @@ Message: ".$message."
 
 ";
 
-mail ("pygyxike@molecule.ink" , "New Message", $email_message);
+mail ("example@gmail.com" , "New Message", $email_message);
 header("location: ../../mail-success.html");
 ?>
 
